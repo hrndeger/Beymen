@@ -1,0 +1,13 @@
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\bin\Debug\net8.0\Beymen.NotificationService.Service.deps.json
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\bin\Debug\net8.0\Beymen.NotificationService.Service.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\bin\Debug\net8.0\Beymen.NotificationService.Service.pdb
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\obj\Debug\net8.0\Beymen.NotificationService.Service.csproj.AssemblyReference.cache
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\obj\Debug\net8.0\Beymen.NotificationService.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\obj\Debug\net8.0\Beymen.NotificationService.Service.AssemblyInfoInputs.cache
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\obj\Debug\net8.0\Beymen.NotificationService.Service.AssemblyInfo.cs
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\obj\Debug\net8.0\Beymen.NotificationService.Service.csproj.CoreCompileInputs.cache
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\obj\Debug\net8.0\Beymen.NotificationService.Service.sourcelink.json
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\obj\Debug\net8.0\Beymen.NotificationService.Service.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\obj\Debug\net8.0\refint\Beymen.NotificationService.Service.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\obj\Debug\net8.0\Beymen.NotificationService.Service.pdb
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.NotificationService.Service\obj\Debug\net8.0\ref\Beymen.NotificationService.Service.dll

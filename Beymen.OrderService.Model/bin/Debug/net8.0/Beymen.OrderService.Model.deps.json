@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Beymen.OrderService.Model/1.0.0": {
+        "runtime": {
+          "Beymen.OrderService.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Beymen.OrderService.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\bin\Debug\net8.0\Beymen.Service.Repository.deps.json
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\bin\Debug\net8.0\Beymen.Service.Repository.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\bin\Debug\net8.0\Beymen.Service.Repository.pdb
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\obj\Debug\net8.0\Beymen.Service.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\obj\Debug\net8.0\Beymen.Service.Repository.AssemblyInfoInputs.cache
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\obj\Debug\net8.0\Beymen.Service.Repository.AssemblyInfo.cs
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\obj\Debug\net8.0\Beymen.Service.Repository.csproj.CoreCompileInputs.cache
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\obj\Debug\net8.0\Beymen.Service.Repository.sourcelink.json
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\obj\Debug\net8.0\Beymen.Service.Repository.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\obj\Debug\net8.0\refint\Beymen.Service.Repository.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\obj\Debug\net8.0\Beymen.Service.Repository.pdb
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Repository\obj\Debug\net8.0\ref\Beymen.Service.Repository.dll

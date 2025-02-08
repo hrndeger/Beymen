@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00EE751E-B470-4A6F-8B50-FA8967B73E77}|Beymen.OrderService.API\\Beymen.OrderService.API.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00EE751E-B470-4A6F-8B50-FA8967B73E77}|Beymen.OrderService.API\\Beymen.OrderService.API.csproj|solutionrelative:beymen.orderservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9FB3B2-780E-43F1-9D67-8BC2218D8ABB}|Beymen.OrderService.Service\\Beymen.OrderService.Service.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.service\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9FB3B2-780E-43F1-9D67-8BC2218D8ABB}|Beymen.OrderService.Service\\Beymen.OrderService.Service.csproj|solutionrelative:beymen.orderservice.service\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00EE751E-B470-4A6F-8B50-FA8967B73E77}|Beymen.OrderService.API\\Beymen.OrderService.API.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00EE751E-B470-4A6F-8B50-FA8967B73E77}|Beymen.OrderService.API\\Beymen.OrderService.API.csproj|solutionrelative:beymen.orderservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC42E6BF-146A-48C5-A088-D2FD6C68A0EB}|Beymen.OrderService.Mapper\\Beymen.OrderService.Mapper.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.mapper\\orderdtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC42E6BF-146A-48C5-A088-D2FD6C68A0EB}|Beymen.OrderService.Mapper\\Beymen.OrderService.Mapper.csproj|solutionrelative:beymen.orderservice.mapper\\orderdtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73339989-D6BB-4480-BCAC-E21A4B476F48}|Beymen.OrderService.Model\\Beymen.OrderService.Model.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.model\\order\\request\\createorderitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73339989-D6BB-4480-BCAC-E21A4B476F48}|Beymen.OrderService.Model\\Beymen.OrderService.Model.csproj|solutionrelative:beymen.orderservice.model\\order\\request\\createorderitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73339989-D6BB-4480-BCAC-E21A4B476F48}|Beymen.OrderService.Model\\Beymen.OrderService.Model.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.model\\order\\request\\createorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73339989-D6BB-4480-BCAC-E21A4B476F48}|Beymen.OrderService.Model\\Beymen.OrderService.Model.csproj|solutionrelative:beymen.orderservice.model\\order\\request\\createorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9FB3B2-780E-43F1-9D67-8BC2218D8ABB}|Beymen.OrderService.Service\\Beymen.OrderService.Service.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.service\\order\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9FB3B2-780E-43F1-9D67-8BC2218D8ABB}|Beymen.OrderService.Service\\Beymen.OrderService.Service.csproj|solutionrelative:beymen.orderservice.service\\order\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E097A66E-64F1-4828-BFBA-F3D63762EABE}|Beymen.OrderService.Entity\\Beymen.OrderService.Entity.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E097A66E-64F1-4828-BFBA-F3D63762EABE}|Beymen.OrderService.Entity\\Beymen.OrderService.Entity.csproj|solutionrelative:beymen.orderservice.entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FB8DF8-2585-4126-9C38-76345316B2E2}|Beymen.StockService.API\\Beymen.StockService.API.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.stockservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32FB8DF8-2585-4126-9C38-76345316B2E2}|Beymen.StockService.API\\Beymen.StockService.API.csproj|solutionrelative:beymen.stockservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FB8DF8-2585-4126-9C38-76345316B2E2}|Beymen.StockService.API\\Beymen.StockService.API.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.stockservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32FB8DF8-2585-4126-9C38-76345316B2E2}|Beymen.StockService.API\\Beymen.StockService.API.csproj|solutionrelative:beymen.stockservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FB8DF8-2585-4126-9C38-76345316B2E2}|Beymen.StockService.API\\Beymen.StockService.API.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.stockservice.api\\consumer\\stockconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32FB8DF8-2585-4126-9C38-76345316B2E2}|Beymen.StockService.API\\Beymen.StockService.API.csproj|solutionrelative:beymen.stockservice.api\\consumer\\stockconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93019C27-3CC9-4BE0-886A-E8DFC165F11D}|Beymen.NotificationService.API\\Beymen.NotificationService.API.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.notificationservice.api\\consumer\\notificationconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93019C27-3CC9-4BE0-886A-E8DFC165F11D}|Beymen.NotificationService.API\\Beymen.NotificationService.API.csproj|solutionrelative:beymen.notificationservice.api\\consumer\\notificationconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455F943A-8DF7-4902-AD69-4F10314C8DA9}|Beymen.Service.Message\\Beymen.Service.Message.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.service.message\\imessagequeueconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{455F943A-8DF7-4902-AD69-4F10314C8DA9}|Beymen.Service.Message\\Beymen.Service.Message.csproj|solutionrelative:beymen.service.message\\imessagequeueconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93019C27-3CC9-4BE0-886A-E8DFC165F11D}|Beymen.NotificationService.API\\Beymen.NotificationService.API.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.notificationservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93019C27-3CC9-4BE0-886A-E8DFC165F11D}|Beymen.NotificationService.API\\Beymen.NotificationService.API.csproj|solutionrelative:beymen.notificationservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00EE751E-B470-4A6F-8B50-FA8967B73E77}|Beymen.OrderService.API\\Beymen.OrderService.API.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.api\\processor\\outboxprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00EE751E-B470-4A6F-8B50-FA8967B73E77}|Beymen.OrderService.API\\Beymen.OrderService.API.csproj|solutionrelative:beymen.orderservice.api\\processor\\outboxprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93019C27-3CC9-4BE0-886A-E8DFC165F11D}|Beymen.NotificationService.API\\Beymen.NotificationService.API.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.notificationservice.api\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93019C27-3CC9-4BE0-886A-E8DFC165F11D}|Beymen.NotificationService.API\\Beymen.NotificationService.API.csproj|solutionrelative:beymen.notificationservice.api\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00EE751E-B470-4A6F-8B50-FA8967B73E77}|Beymen.OrderService.API\\Beymen.OrderService.API.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00EE751E-B470-4A6F-8B50-FA8967B73E77}|Beymen.OrderService.API\\Beymen.OrderService.API.csproj|solutionrelative:beymen.orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8BF12BE-5DAC-4CCA-AF5E-C0F7E1A63F61}|Beymen.NotificationService.Business\\Beymen.NotificationService.Business.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.notificationservice.business\\notificationbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8BF12BE-5DAC-4CCA-AF5E-C0F7E1A63F61}|Beymen.NotificationService.Business\\Beymen.NotificationService.Business.csproj|solutionrelative:beymen.notificationservice.business\\notificationbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8BF12BE-5DAC-4CCA-AF5E-C0F7E1A63F61}|Beymen.NotificationService.Business\\Beymen.NotificationService.Business.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.notificationservice.business\\inotificationbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8BF12BE-5DAC-4CCA-AF5E-C0F7E1A63F61}|Beymen.NotificationService.Business\\Beymen.NotificationService.Business.csproj|solutionrelative:beymen.notificationservice.business\\inotificationbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B543CFF3-833D-4E35-942B-95C95B0B8CF5}|Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.notificationservice.service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B543CFF3-833D-4E35-942B-95C95B0B8CF5}|Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj|solutionrelative:beymen.notificationservice.service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B543CFF3-833D-4E35-942B-95C95B0B8CF5}|Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.notificationservice.service\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B543CFF3-833D-4E35-942B-95C95B0B8CF5}|Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj|solutionrelative:beymen.notificationservice.service\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EB14A4-7E01-4ACF-93DA-1D3D94ABCCCE}|Beymen.StockService.Entity\\Beymen.StockService.Entity.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.stockservice.entity\\stockdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EB14A4-7E01-4ACF-93DA-1D3D94ABCCCE}|Beymen.StockService.Entity\\Beymen.StockService.Entity.csproj|solutionrelative:beymen.stockservice.entity\\stockdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA2CDAF1-6563-4609-B536-5995EA7678EE}|Beymen.StockService.Service\\Beymen.StockService.Service.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.stockservice.service\\repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA2CDAF1-6563-4609-B536-5995EA7678EE}|Beymen.StockService.Service\\Beymen.StockService.Service.csproj|solutionrelative:beymen.stockservice.service\\repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA2CDAF1-6563-4609-B536-5995EA7678EE}|Beymen.StockService.Service\\Beymen.StockService.Service.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.stockservice.service\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA2CDAF1-6563-4609-B536-5995EA7678EE}|Beymen.StockService.Service\\Beymen.StockService.Service.csproj|solutionrelative:beymen.stockservice.service\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF096552-134E-49AA-B634-B5B1CE8C2CE7}|Beymen.StockService.Business\\Beymen.StockService.Business.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.stockservice.business\\stockbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF096552-134E-49AA-B634-B5B1CE8C2CE7}|Beymen.StockService.Business\\Beymen.StockService.Business.csproj|solutionrelative:beymen.stockservice.business\\stockbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9FB3B2-780E-43F1-9D67-8BC2218D8ABB}|Beymen.OrderService.Service\\Beymen.OrderService.Service.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.service\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA9FB3B2-780E-43F1-9D67-8BC2218D8ABB}|Beymen.OrderService.Service\\Beymen.OrderService.Service.csproj|solutionrelative:beymen.orderservice.service\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E097A66E-64F1-4828-BFBA-F3D63762EABE}|Beymen.OrderService.Entity\\Beymen.OrderService.Entity.csproj|c:\\users\\harun.deger\\source\\harun repos\\ecommerce\\beymen.orderservice.entity\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E097A66E-64F1-4828-BFBA-F3D63762EABE}|Beymen.OrderService.Entity\\Beymen.OrderService.Entity.csproj|solutionrelative:beymen.orderservice.entity\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 24,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Service\\Order\\OrderService.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.Service\\Order\\OrderService.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Service\\Order\\OrderService.cs",
+              "RelativeToolTip": "Beymen.OrderService.Service\\Order\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:20:20.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDtoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Mapper\\OrderDtoMapper.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.Mapper\\OrderDtoMapper.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Mapper\\OrderDtoMapper.cs",
+              "RelativeToolTip": "Beymen.OrderService.Mapper\\OrderDtoMapper.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAkwCEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:15:03.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Service\\Order\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.Service\\Order\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Service\\Order\\IOrderService.cs",
+              "RelativeToolTip": "Beymen.OrderService.Service\\Order\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:14:56.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Entity\\Order.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.Entity\\Order.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Entity\\Order.cs",
+              "RelativeToolTip": "Beymen.OrderService.Entity\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:14:39.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateOrderRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Model\\Order\\Request\\CreateOrderRequestDto.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.Model\\Order\\Request\\CreateOrderRequestDto.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Model\\Order\\Request\\CreateOrderRequestDto.cs",
+              "RelativeToolTip": "Beymen.OrderService.Model\\Order\\Request\\CreateOrderRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:13:57.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateOrderItemRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Model\\Order\\Request\\CreateOrderItemRequestDto.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.Model\\Order\\Request\\CreateOrderItemRequestDto.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Model\\Order\\Request\\CreateOrderItemRequestDto.cs",
+              "RelativeToolTip": "Beymen.OrderService.Model\\Order\\Request\\CreateOrderItemRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:13:49.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Beymen.OrderService.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.API\\appsettings.json",
+              "RelativeToolTip": "Beymen.OrderService.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T20:10:21.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.API\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Beymen.OrderService.API\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:06:51.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.API\\Program.cs",
+              "RelativeDocumentMoniker": "Beymen.NotificationService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.API\\Program.cs",
+              "RelativeToolTip": "Beymen.NotificationService.API\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAB4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:25:30.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.API\\Program.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.API\\Program.cs",
+              "RelativeToolTip": "Beymen.OrderService.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T19:56:29.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NotificationConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.API\\Consumer\\NotificationConsumer.cs",
+              "RelativeDocumentMoniker": "Beymen.NotificationService.API\\Consumer\\NotificationConsumer.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.API\\Consumer\\NotificationConsumer.cs",
+              "RelativeToolTip": "Beymen.NotificationService.API\\Consumer\\NotificationConsumer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwC8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:23:35.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StockConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\Consumer\\StockConsumer.cs",
+              "RelativeDocumentMoniker": "Beymen.StockService.API\\Consumer\\StockConsumer.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\Consumer\\StockConsumer.cs",
+              "RelativeToolTip": "Beymen.StockService.API\\Consumer\\StockConsumer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA1wDIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:03:55.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Beymen.StockService.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\appsettings.json",
+              "RelativeToolTip": "Beymen.StockService.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T20:10:13.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\Program.cs",
+              "RelativeDocumentMoniker": "Beymen.StockService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\Program.cs",
+              "RelativeToolTip": "Beymen.StockService.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T19:56:22.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMessageQueueConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\IMessageQueueConsumer.cs",
+              "RelativeDocumentMoniker": "Beymen.Service.Message\\IMessageQueueConsumer.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\IMessageQueueConsumer.cs",
+              "RelativeToolTip": "Beymen.Service.Message\\IMessageQueueConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:43:02.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.API\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Beymen.NotificationService.API\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.API\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Beymen.NotificationService.API\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:21:12.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OutboxProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.API\\Processor\\OutboxProcessor.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.API\\Processor\\OutboxProcessor.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.API\\Processor\\OutboxProcessor.cs",
+              "RelativeToolTip": "Beymen.OrderService.API\\Processor\\OutboxProcessor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:35:20.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Beymen.NotificationService.Service\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\NotificationService.cs",
+              "RelativeToolTip": "Beymen.NotificationService.Service\\NotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:22:30.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NotificationBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Business\\NotificationBusiness.cs",
+              "RelativeDocumentMoniker": "Beymen.NotificationService.Business\\NotificationBusiness.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Business\\NotificationBusiness.cs",
+              "RelativeToolTip": "Beymen.NotificationService.Business\\NotificationBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:23:01.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "INotificationBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Business\\INotificationBusiness.cs",
+              "RelativeDocumentMoniker": "Beymen.NotificationService.Business\\INotificationBusiness.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Business\\INotificationBusiness.cs",
+              "RelativeToolTip": "Beymen.NotificationService.Business\\INotificationBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:23:11.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Beymen.NotificationService.Service\\INotificationService.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\INotificationService.cs",
+              "RelativeToolTip": "Beymen.NotificationService.Service\\INotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:22:47.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StockDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Entity\\StockDbContext.cs",
+              "RelativeDocumentMoniker": "Beymen.StockService.Entity\\StockDbContext.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Entity\\StockDbContext.cs",
+              "RelativeToolTip": "Beymen.StockService.Entity\\StockDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:09:56.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Service\\Repository\\StockRepository.cs",
+              "RelativeDocumentMoniker": "Beymen.StockService.Service\\Repository\\StockRepository.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Service\\Repository\\StockRepository.cs",
+              "RelativeToolTip": "Beymen.StockService.Service\\Repository\\StockRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:04:50.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StockService.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Service\\StockService.cs",
+              "RelativeDocumentMoniker": "Beymen.StockService.Service\\StockService.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Service\\StockService.cs",
+              "RelativeToolTip": "Beymen.StockService.Service\\StockService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:04:25.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StockBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Business\\StockBusiness.cs",
+              "RelativeDocumentMoniker": "Beymen.StockService.Business\\StockBusiness.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Business\\StockBusiness.cs",
+              "RelativeToolTip": "Beymen.StockService.Business\\StockBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:04:10.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Service\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.Service\\Repository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Service\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "Beymen.OrderService.Service\\Repository\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T19:58:40.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Entity\\OrderDbContext.cs",
+              "RelativeDocumentMoniker": "Beymen.OrderService.Entity\\OrderDbContext.cs",
+              "ToolTip": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Entity\\OrderDbContext.cs",
+              "RelativeToolTip": "Beymen.OrderService.Entity\\OrderDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T19:58:12.948Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

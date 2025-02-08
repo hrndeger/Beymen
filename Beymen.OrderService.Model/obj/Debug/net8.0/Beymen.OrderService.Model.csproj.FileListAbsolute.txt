@@ -1,0 +1,12 @@
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\bin\Debug\net8.0\Beymen.OrderService.Model.deps.json
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\bin\Debug\net8.0\Beymen.OrderService.Model.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\bin\Debug\net8.0\Beymen.OrderService.Model.pdb
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\obj\Debug\net8.0\Beymen.OrderService.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\obj\Debug\net8.0\Beymen.OrderService.Model.AssemblyInfoInputs.cache
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\obj\Debug\net8.0\Beymen.OrderService.Model.AssemblyInfo.cs
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\obj\Debug\net8.0\Beymen.OrderService.Model.csproj.CoreCompileInputs.cache
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\obj\Debug\net8.0\Beymen.OrderService.Model.sourcelink.json
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\obj\Debug\net8.0\Beymen.OrderService.Model.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\obj\Debug\net8.0\refint\Beymen.OrderService.Model.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\obj\Debug\net8.0\Beymen.OrderService.Model.pdb
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Model\obj\Debug\net8.0\ref\Beymen.OrderService.Model.dll

@@ -1,0 +1,6 @@
+@Beymen.OrderService.API_HostAddress = http://localhost:5055
+
+GET {{Beymen.OrderService.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

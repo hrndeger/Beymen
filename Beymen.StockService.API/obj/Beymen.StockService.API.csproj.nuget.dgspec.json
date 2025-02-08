@@ -1,0 +1,573 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\Beymen.StockService.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj",
+        "projectName": "Beymen.NotificationService.Service",
+        "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj",
+        "packagesPath": "C:\\Users\\harun.deger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\harun.deger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/octettech/_packaging/octettech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Core\\Beymen.Service.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Core\\Beymen.Service.Core.csproj",
+        "projectName": "Beymen.Service.Core",
+        "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Core\\Beymen.Service.Core.csproj",
+        "packagesPath": "C:\\Users\\harun.deger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\harun.deger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/octettech/_packaging/octettech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\Beymen.Service.Message.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\Beymen.Service.Message.csproj",
+        "projectName": "Beymen.Service.Message",
+        "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\Beymen.Service.Message.csproj",
+        "packagesPath": "C:\\Users\\harun.deger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\harun.deger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/octettech/_packaging/octettech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Repository\\Beymen.Service.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Repository\\Beymen.Service.Repository.csproj",
+        "projectName": "Beymen.Service.Repository",
+        "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Repository\\Beymen.Service.Repository.csproj",
+        "packagesPath": "C:\\Users\\harun.deger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\harun.deger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/octettech/_packaging/octettech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\Beymen.StockService.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\Beymen.StockService.API.csproj",
+        "projectName": "Beymen.StockService.API",
+        "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\Beymen.StockService.API.csproj",
+        "packagesPath": "C:\\Users\\harun.deger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\harun.deger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/octettech/_packaging/octettech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Business\\Beymen.StockService.Business.csproj": {
+                "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Business\\Beymen.StockService.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Business\\Beymen.StockService.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Business\\Beymen.StockService.Business.csproj",
+        "projectName": "Beymen.StockService.Business",
+        "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Business\\Beymen.StockService.Business.csproj",
+        "packagesPath": "C:\\Users\\harun.deger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\harun.deger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/octettech/_packaging/octettech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj": {
+                "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj"
+              },
+              "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\Beymen.Service.Message.csproj": {
+                "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\Beymen.Service.Message.csproj"
+              },
+              "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Service\\Beymen.StockService.Service.csproj": {
+                "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Service\\Beymen.StockService.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Entity\\Beymen.StockService.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Entity\\Beymen.StockService.Entity.csproj",
+        "projectName": "Beymen.StockService.Entity",
+        "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Entity\\Beymen.StockService.Entity.csproj",
+        "packagesPath": "C:\\Users\\harun.deger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\harun.deger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/octettech/_packaging/octettech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Core\\Beymen.Service.Core.csproj": {
+                "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Core\\Beymen.Service.Core.csproj"
+              },
+              "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Repository\\Beymen.Service.Repository.csproj": {
+                "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Repository\\Beymen.Service.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Service\\Beymen.StockService.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Service\\Beymen.StockService.Service.csproj",
+        "projectName": "Beymen.StockService.Service",
+        "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Service\\Beymen.StockService.Service.csproj",
+        "packagesPath": "C:\\Users\\harun.deger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\harun.deger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/octettech/_packaging/octettech/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\Beymen.Service.Message.csproj": {
+                "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\Beymen.Service.Message.csproj"
+              },
+              "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Entity\\Beymen.StockService.Entity.csproj": {
+                "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.StockService.Entity\\Beymen.StockService.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

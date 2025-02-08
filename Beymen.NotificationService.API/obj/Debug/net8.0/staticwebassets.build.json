@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WjZQO3D9feB8893APz0+PYZu7Z2GeS4rEPKR7KCYX+Y=",
+  "Source": "Beymen.NotificationService.API",
+  "BasePath": "_content/Beymen.NotificationService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

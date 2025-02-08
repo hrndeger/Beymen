@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Beymen.OrderService.API.props" />
+</Project>
