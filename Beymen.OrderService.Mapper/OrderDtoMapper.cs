@@ -16,14 +16,14 @@ namespace Beymen.OrderService.Mapper
                 CustomerId = dto.CustomerId,
                 Total = dto.Total,
                 IsDeleted = false,
-                CreatedDate = DateTime.Now
+                CreatedDate = DateTime.UtcNow
             };
 
             order.OrderItems = dto.OrderItems.Select(x => new OrderItem
             {
                 ProductId = x.ProductId,
                 Id = Guid.NewGuid(),
-                CreatedDate = DateTime.Now,
+                CreatedDate = DateTime.UtcNow,
                 OrderId = order.Id,
                 Price = x.Price,
                 Quantity = x.Quantity,

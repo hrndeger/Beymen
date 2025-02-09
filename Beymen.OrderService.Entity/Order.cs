@@ -8,7 +8,6 @@ namespace Beymen.OrderService.Entity
 
         public decimal Total { get; set; }
 
-        public string  Descriptiom { get; set; }
         public ICollection<OrderItem> OrderItems { get;  set; }
     }
 }
