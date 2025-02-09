@@ -25,6 +25,12 @@ namespace Beymen.NotificationService.API.Consumer
             _channel.QueueDeclare(queue: _queueName, durable: true, exclusive: false, autoDelete: false, arguments: null);
         }
 
+        public override Task StartAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation("RabbitMQ ile bağlantı kuruldu.");
+
+            return base.StartAsync(cancellationToken);
+        }
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
             var consumer = new EventingBasicConsumer(_channel);
@@ -65,6 +71,12 @@ namespace Beymen.NotificationService.API.Consumer
             return Task.CompletedTask;
         }
 
+        public override Task StopAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation("RabbitMQ ile bağlantı kapatıldı.");
+
+            return base.StopAsync(cancellationToken);
+        }
         public override void Dispose()
         {
             _channel?.Close();

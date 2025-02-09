@@ -13,11 +13,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+
 var connectionString = builder.Configuration.GetConnectionString("OrderDbConnection");
+
 builder.Services.AddDbContext<OrderDbContext>(options =>
     options.UseNpgsql(connectionString));
 
-var rabbitMqConnectionString = builder.Configuration.GetValue<string>("RabbitMQ:ConnectionString");
+
+var rabbitMqConnectionString = builder.Configuration.GetConnectionString("RabbitMQ");
+
 builder.Services.AddSingleton<IConnection>(sp =>
 {
     var factory = new ConnectionFactory() { Uri = new Uri(rabbitMqConnectionString) };

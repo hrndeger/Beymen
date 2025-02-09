@@ -9,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 var services = builder.Services;
 
-var rabbitMqConnectionString = builder.Configuration.GetValue<string>("RabbitMQ:ConnectionString");
+var rabbitMqConnectionString = builder.Configuration.GetConnectionString("RabbitMQ");
+
 builder.Services.AddSingleton<IConnection>(sp =>
 {
     var factory = new ConnectionFactory() { Uri = new Uri(rabbitMqConnectionString) };

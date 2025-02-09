@@ -1,28 +1,23 @@
 ﻿using Beymen.Service.Message;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using RabbitMQ.Client;
 using System.Text;
 
 namespace Beymen.OrderService.Business.Publisher
 {
-    //singleton pattern kullanıldı
     public sealed class OrderPublisher : IMessageQueuePublisher, IDisposable
     {
         private readonly IConnection _connection;
         private readonly IModel _channel;
+        private const string _exchangeName = "order-direct";
 
-        public OrderPublisher()
+        public OrderPublisher(IConnection connection, IConfiguration configuration)
         {
-            var factory = new ConnectionFactory
-            {
-                HostName = "localhost",
-                UserName = "guest",
-                Password = "guest",
-                DispatchConsumersAsync = true
-            };
-
-            _connection = factory.CreateConnection();
+            _connection = connection ?? throw new ArgumentNullException(nameof(connection));
             _channel = _connection.CreateModel();
+            
+            _channel.ExchangeDeclare(_exchangeName, ExchangeType.Direct, durable: true);
         }
 
         public void Publish(string queueName, object message)
@@ -32,17 +27,20 @@ namespace Beymen.OrderService.Business.Publisher
                 throw new InvalidOperationException("RabbitMQ bağlantısı kapalı");
             }
 
-            //herhangi bir filtreleme yapmadan kendisine bağlı kaç tane queue varsa hepsine aynı mesajı yollar.
-            _channel.ExchangeDeclare("order-fanout", durable: true, type: ExchangeType.Fanout);
+            _channel.ExchangeDeclare(_exchangeName, ExchangeType.Direct, durable: true);
 
             _channel.QueueDeclare(queue: queueName, durable: true, exclusive: false, autoDelete: false, arguments: null);
 
+            _channel.QueueBind(queue: queueName, exchange: _exchangeName, routingKey: queueName);
+
             var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
+
 
             var properties = _channel.CreateBasicProperties();
             properties.Persistent = true;
 
-            _channel.BasicPublish(exchange: "", routingKey: queueName, basicProperties: properties, body: body);
+            _channel.BasicPublish(exchange: _exchangeName, routingKey: queueName, basicProperties: properties, body: body);
+
         }
 
         public void Dispose()

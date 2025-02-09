@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Beymen.StockService.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ba158c6d4f64cb0869a60cd5bae58bf1561cf11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+182112881616580bbe7cf29153c1c655523c5ab5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Beymen.StockService.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Beymen.StockService.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

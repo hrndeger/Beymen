@@ -18,6 +18,18 @@ namespace Beymen.OrderService.Entity
         {
             base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Entity<Order>(entity =>
+            {
+                entity.HasKey(o => o.Id);
+                entity.Property(o => o.Total).HasPrecision(18, 2);
+            });
+
+            modelBuilder.Entity<OrderItem>(entity =>
+            {
+                entity.HasKey(oi => oi.Id);
+                entity.Property(oi => oi.Price).HasPrecision(18, 2);
+            });
+
             modelBuilder.Entity<Order>()
                 .HasMany(o => o.OrderItems)
                 .WithOne(oi => oi.Order)

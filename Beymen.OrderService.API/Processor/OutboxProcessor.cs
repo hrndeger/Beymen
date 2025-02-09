@@ -16,6 +16,12 @@ namespace Beymen.OrderService.API.Processor
             _logger = logger;
         }
 
+        public override Task StartAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation("RabbitMQ ile bağlantı kuruldu.");
+            return base.StartAsync(cancellationToken);
+        }
+
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
@@ -51,6 +57,12 @@ namespace Beymen.OrderService.API.Processor
 
                 await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
             }
+        }
+
+        public override Task StopAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation("RabbitMQ ile bağlantı kapatıldı.");
+            return base.StopAsync(cancellationToken);
         }
     }
 }

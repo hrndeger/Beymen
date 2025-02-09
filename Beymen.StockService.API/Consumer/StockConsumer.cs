@@ -25,6 +25,12 @@ namespace Beymen.StockService.API.Consumer
             _channel.QueueDeclare(queue: _queueName, durable: true, exclusive: false, autoDelete: false, arguments: null);
         }
 
+        public override Task StartAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation("RabbitMQ ile bağlantı kuruldu.");
+
+            return base.StartAsync(cancellationToken);
+        }
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
             var consumer = new EventingBasicConsumer(_channel);
@@ -45,7 +51,7 @@ namespace Beymen.StockService.API.Consumer
                         return;
                     }
 
-                    using (var scope = _serviceScopeFactory.CreateScope()) // Scoped servis burada alınmalı
+                    using (var scope = _serviceScopeFactory.CreateScope()) 
                     {
                         var stockBusiness = scope.ServiceProvider.GetRequiredService<IStockBusiness>();
                         await stockBusiness.UpdateStockAsync(orderDto);
@@ -57,8 +63,8 @@ namespace Beymen.StockService.API.Consumer
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex, "Stok güncellenirken hata oluştu: {Message}", message);
                     _channel.BasicNack(ea.DeliveryTag, false, true); // Hata oluştu, mesajı tekrar kuyruğa ekle
+                    _logger.LogError(ex, "Stok güncellenirken hata oluştu: {Message}", message);
                 }
             };
 
@@ -67,6 +73,12 @@ namespace Beymen.StockService.API.Consumer
             return Task.CompletedTask;
         }
 
+        public override Task StopAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation("RabbitMQ ile bağlantı kapatıldı.");
+
+            return base.StopAsync(cancellationToken);
+        }
         public override void Dispose()
         {
             _channel?.Close();

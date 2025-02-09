@@ -1,4 +1,5 @@
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\bin\Debug\net8.0\Beymen.OrderService.Entity.deps.json
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\bin\Debug\net8.0\Beymen.OrderService.Entity.runtimeconfig.json
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\bin\Debug\net8.0\Beymen.OrderService.Entity.dll
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\bin\Debug\net8.0\Beymen.OrderService.Entity.pdb
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\bin\Debug\net8.0\Beymen.Service.Core.dll
@@ -15,4 +16,5 @@ C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\obj
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\obj\Debug\net8.0\Beymen.OrderService.Entity.dll
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\obj\Debug\net8.0\refint\Beymen.OrderService.Entity.dll
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\obj\Debug\net8.0\Beymen.OrderService.Entity.pdb
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\obj\Debug\net8.0\Beymen.OrderService.Entity.genruntimeconfig.cache
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.OrderService.Entity\obj\Debug\net8.0\ref\Beymen.OrderService.Entity.dll
