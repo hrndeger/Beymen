@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Beymen.OrderService.Entity.Migrations
 {
     [DbContext(typeof(OrderDbContext))]
-    [Migration("20250209184928_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250209200243_order")]
+    partial class order
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,6 +39,10 @@ namespace Beymen.OrderService.Entity.Migrations
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Descriptiom")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");

@@ -14,7 +14,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 
+
 var connectionString = builder.Configuration.GetConnectionString("OrderDbConnection");
+
+
 
 builder.Services.AddDbContext<OrderDbContext>(options =>
     options.UseNpgsql(connectionString));

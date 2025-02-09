@@ -16,3 +16,5 @@ C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Entity\obj
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Entity\obj\Debug\net8.0\refint\Beymen.StockService.Entity.dll
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Entity\obj\Debug\net8.0\Beymen.StockService.Entity.pdb
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Entity\obj\Debug\net8.0\ref\Beymen.StockService.Entity.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Entity\bin\Debug\net8.0\Beymen.StockService.Entity.runtimeconfig.json
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Entity\obj\Debug\net8.0\Beymen.StockService.Entity.genruntimeconfig.cache

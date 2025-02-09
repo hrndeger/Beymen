@@ -37,6 +37,10 @@ namespace Beymen.OrderService.Entity.Migrations
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("Descriptiom")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 

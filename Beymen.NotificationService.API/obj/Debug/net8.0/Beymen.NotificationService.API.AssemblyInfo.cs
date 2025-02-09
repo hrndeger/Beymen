@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Beymen.NotificationService.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+182112881616580bbe7cf29153c1c655523c5ab5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ae55ade6095a8678cd86f252f033ef821ece7a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Beymen.NotificationService.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Beymen.NotificationService.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
