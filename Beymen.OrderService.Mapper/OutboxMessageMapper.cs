@@ -16,7 +16,7 @@ namespace Beymen.OrderService.Mapper
                 Id = Guid.NewGuid(),
                 CreatedDate = DateTime.Now,
                 IsProcessed = false,
-                QueueName = "order.created",
+                QueueName = "stock-queue",
                 MessageBody = message
             };
         }

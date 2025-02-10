@@ -1,4 +1,3 @@
-using Beymen.NotificationService.API;
 using Beymen.NotificationService.API.Consumer;
 using Beymen.NotificationService.Business;
 using Beymen.NotificationService.Service;

@@ -15,7 +15,6 @@ namespace Beymen.StockService.API.Consumer
         private readonly ILogger<StockConsumer> _logger;
         private const string OrderConfirmedQueue = "order-confirmed-queue";
 
-
         public StockConsumer(IServiceScopeFactory serviceScopeFactory, ILogger<StockConsumer> logger, IConnection connection)
         {
             _logger = logger;
@@ -59,6 +58,7 @@ namespace Beymen.StockService.API.Consumer
                     {
                         var stockBusiness = scope.ServiceProvider.GetRequiredService<IStockBusiness>();
 
+                        //add stock control service
                         var isStockAvailable = true;
 
                         if (isStockAvailable)
@@ -78,12 +78,18 @@ namespace Beymen.StockService.API.Consumer
                         }
                     }
 
-
                     _channel.BasicAck(ea.DeliveryTag, false);
+                }
+                catch (JsonSerializationException ex)
+                {
+                    _channel.BasicNack(ea.DeliveryTag, false, true);
+
+                    _logger.LogError(ex, "JSON deserialization hatası: {Message}", message);
                 }
                 catch (Exception ex)
                 {
                     _channel.BasicNack(ea.DeliveryTag, false, true); 
+                    
                     _logger.LogError(ex, "Stok güncellenirken hata oluştu: {Message}", message);
                 }
             };

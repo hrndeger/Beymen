@@ -13,11 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-
-
 var connectionString = builder.Configuration.GetConnectionString("OrderDbConnection");
-
-
 
 builder.Services.AddDbContext<OrderDbContext>(options =>
     options.UseNpgsql(connectionString));
@@ -36,7 +32,6 @@ builder.Services.AddSingleton<IMessageQueuePublisher, OrderPublisher>();
 
 builder.Services.AddHostedService<OutboxProcessor>();
 
-
 builder.Services.AddScoped<IOutboxMessageService, OutboxMessageService>();
 builder.Services.AddScoped<IOrderBusiness, OrderBusiness>();
 builder.Services.AddScoped<IOrderService, OrderService>();
@@ -47,8 +42,8 @@ builder.Services.AddLogging();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<OrderDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("OrderDbConnection")));
+//builder.Services.AddDbContext<OrderDbContext>(options =>
+//    options.UseNpgsql(builder.Configuration.GetConnectionString("OrderDbConnection")));
 
 
 var app = builder.Build();

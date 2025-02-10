@@ -20,6 +20,5 @@ namespace Beymen.NotificationService.API.Controllers
             await _notificationBusiness.SendNotificationAsync(orderDto.CustomerId, "");
             return Ok(new { Message = "Mesaj gönderildi." });
         }
-
     }
 }

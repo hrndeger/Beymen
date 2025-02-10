@@ -7,6 +7,7 @@
         Task<IList<Entity.OutboxMessage>> GetPendingMessagesAsync();
 
         Task SetProcessedAsync(Guid id, bool isProcessed);
+
         Task SetProcessingAsync(Guid id, bool isProcessing);
 
     }
