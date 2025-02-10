@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Beymen.Service.Message")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33a54ace6197337380c9bd42b6769143cd818c7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f76c00d469feb39837159d8d7b0aa81c677c2dd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Beymen.Service.Message")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Beymen.Service.Message")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

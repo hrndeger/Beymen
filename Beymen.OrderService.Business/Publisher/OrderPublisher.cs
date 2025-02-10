@@ -18,6 +18,7 @@ namespace Beymen.OrderService.Business.Publisher
             _channel = _connection.CreateModel();
             
             _channel.ExchangeDeclare(_exchangeName, ExchangeType.Direct, durable: true);
+
         }
 
         public void Publish(string queueName, object message)
@@ -29,9 +30,14 @@ namespace Beymen.OrderService.Business.Publisher
 
             _channel.ExchangeDeclare(_exchangeName, ExchangeType.Direct, durable: true);
 
-            _channel.QueueDeclare(queue: queueName, durable: true, exclusive: false, autoDelete: false, arguments: null);
+            // Stock kuyruğu
+            _channel.QueueDeclare(queue: "stock-queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
+            _channel.QueueBind(queue: "stock-queue", exchange: _exchangeName, routingKey: "stock-queue");
 
-            _channel.QueueBind(queue: queueName, exchange: _exchangeName, routingKey: queueName);
+            // Notification kuyruğu
+            _channel.QueueDeclare(queue: "notification-queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
+            _channel.QueueBind(queue: "notification-queue", exchange: _exchangeName, routingKey: "notification-queue");
+
 
             var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
 
@@ -39,7 +45,8 @@ namespace Beymen.OrderService.Business.Publisher
             var properties = _channel.CreateBasicProperties();
             properties.Persistent = true;
 
-            _channel.BasicPublish(exchange: _exchangeName, routingKey: queueName, basicProperties: properties, body: body);
+            _channel.BasicPublish(exchange: _exchangeName, routingKey: "stock-queue", basicProperties: properties, body: body);
+            _channel.BasicPublish(exchange: _exchangeName, routingKey: "notification-queue", basicProperties: properties, body: body);
 
         }
 

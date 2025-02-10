@@ -3,7 +3,6 @@ using Beymen.OrderService.Service.Order;
 using Beymen.OrderService.Service.OutboxMessage;
 using Beymen.Service.Message.DTO;
 using Newtonsoft.Json;
-using System.Text;
 
 namespace Beymen.OrderService.Business
 {
@@ -38,7 +37,7 @@ namespace Beymen.OrderService.Business
                 }).ToList()
             };
 
-            var message= JsonConvert.SerializeObject(orderDto);
+            var message = JsonConvert.SerializeObject(orderDto);
 
             await _outboxMessageService.AddMessageAsync("order.created", message);
 

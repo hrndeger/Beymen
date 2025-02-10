@@ -10,3 +10,4 @@ C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Message\obj\Deb
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Message\obj\Debug\net8.0\refint\Beymen.Service.Message.dll
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Message\obj\Debug\net8.0\Beymen.Service.Message.pdb
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Message\obj\Debug\net8.0\ref\Beymen.Service.Message.dll
+C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.Service.Message\obj\Debug\net8.0\Beymen.Service.Message.csproj.AssemblyReference.cache

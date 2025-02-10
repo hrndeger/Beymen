@@ -13,7 +13,6 @@ namespace Beymen.StockService.API.Consumer
         private readonly IConnection _connection;
         private readonly IModel _channel;
         private readonly ILogger<StockConsumer> _logger;
-        private readonly string _queueName = "order.created";
 
         public StockConsumer(IServiceScopeFactory serviceScopeFactory, ILogger<StockConsumer> logger, IConnection connection)
         {
@@ -22,7 +21,7 @@ namespace Beymen.StockService.API.Consumer
             _connection = connection;
 
             _channel = _connection.CreateModel();
-            _channel.QueueDeclare(queue: _queueName, durable: true, exclusive: false, autoDelete: false, arguments: null);
+            _channel.QueueDeclare(queue: "stock-queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
         }
 
         public override Task StartAsync(CancellationToken cancellationToken)
@@ -31,7 +30,7 @@ namespace Beymen.StockService.API.Consumer
 
             return base.StartAsync(cancellationToken);
         }
-        protected override Task ExecuteAsync(CancellationToken stoppingToken)
+        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             var consumer = new EventingBasicConsumer(_channel);
 
@@ -42,12 +41,14 @@ namespace Beymen.StockService.API.Consumer
 
                 try
                 {
-                    var orderDto = JsonConvert.DeserializeObject<OrderDto>(message);
+                    var order = JsonConvert.DeserializeObject<string>(message);
+                    var orderDto = JsonConvert.DeserializeObject<OrderDto>(order);
+
 
                     if (orderDto == null)
                     {
                         _logger.LogWarning("Geçersiz mesaj formatı: {Message}", message);
-                        _channel.BasicNack(ea.DeliveryTag, false, false); // Mesajı işlenmedi olarak işaretle, tekrar kuyruğa ekleme
+                        _channel.BasicNack(ea.DeliveryTag, false, false); 
                         return;
                     }
 
@@ -59,18 +60,19 @@ namespace Beymen.StockService.API.Consumer
 
                     _logger.LogInformation("Stok güncellendi: {OrderId}", orderDto.OrderId);
 
-                    _channel.BasicAck(ea.DeliveryTag, false); // Mesaj başarıyla işlendi, onay ver
+                    _channel.BasicAck(ea.DeliveryTag, false);
                 }
                 catch (Exception ex)
                 {
-                    _channel.BasicNack(ea.DeliveryTag, false, true); // Hata oluştu, mesajı tekrar kuyruğa ekle
+                    _channel.BasicNack(ea.DeliveryTag, false, true); 
                     _logger.LogError(ex, "Stok güncellenirken hata oluştu: {Message}", message);
                 }
             };
 
-            _channel.BasicConsume(queue: _queueName, autoAck: false, consumer: consumer);
+            _channel.BasicConsume(queue: "stock-queue", autoAck: false, consumer: consumer);
 
-            return Task.CompletedTask;
+            await Task.Delay(Timeout.Infinite, stoppingToken);
+
         }
 
         public override Task StopAsync(CancellationToken cancellationToken)

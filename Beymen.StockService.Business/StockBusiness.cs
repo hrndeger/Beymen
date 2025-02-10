@@ -1,5 +1,4 @@
-﻿using Beymen.Service.Message;
-using Beymen.Service.Message.DTO;
+﻿using Beymen.Service.Message.DTO;
 using Beymen.StockService.Service;
 
 namespace Beymen.StockService.Business
