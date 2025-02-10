@@ -13,6 +13,8 @@ namespace Beymen.StockService.API.Consumer
         private readonly IConnection _connection;
         private readonly IModel _channel;
         private readonly ILogger<StockConsumer> _logger;
+        private const string OrderConfirmedQueue = "order-confirmed-queue";
+
 
         public StockConsumer(IServiceScopeFactory serviceScopeFactory, ILogger<StockConsumer> logger, IConnection connection)
         {
@@ -22,6 +24,7 @@ namespace Beymen.StockService.API.Consumer
 
             _channel = _connection.CreateModel();
             _channel.QueueDeclare(queue: "stock-queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
+            _channel.QueueDeclare(queue: OrderConfirmedQueue, durable: true, exclusive: false, autoDelete: false, arguments: null);
         }
 
         public override Task StartAsync(CancellationToken cancellationToken)
@@ -55,10 +58,26 @@ namespace Beymen.StockService.API.Consumer
                     using (var scope = _serviceScopeFactory.CreateScope()) 
                     {
                         var stockBusiness = scope.ServiceProvider.GetRequiredService<IStockBusiness>();
-                        await stockBusiness.UpdateStockAsync(orderDto);
+
+                        var isStockAvailable = true;
+
+                        if (isStockAvailable)
+                        {
+                            await stockBusiness.UpdateStockAsync(orderDto);
+
+                            var properties = _channel.CreateBasicProperties();
+                            properties.Persistent = true;
+
+                            _channel.BasicPublish(exchange: "", routingKey: OrderConfirmedQueue, basicProperties: properties, body: body);
+
+                            _logger.LogInformation("Stok güncellendi ve order-confirmed mesajı gönderildi: {OrderId}", orderDto.OrderId);
+                        }
+                        else
+                        {
+                            _logger.LogWarning("Stok yetersiz: {OrderId}", orderDto.OrderId);
+                        }
                     }
 
-                    _logger.LogInformation("Stok güncellendi: {OrderId}", orderDto.OrderId);
 
                     _channel.BasicAck(ea.DeliveryTag, false);
                 }

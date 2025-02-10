@@ -4,7 +4,7 @@ namespace Beymen.StockService.Business
 {
     public interface IStockBusiness
     {
-        Task UpdateStockAsync(OrderDto dto);
+        Task UpdateStockAsync(OrderDto dto);        
 
     }
 }

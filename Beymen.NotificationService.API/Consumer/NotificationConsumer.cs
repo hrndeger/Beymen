@@ -22,7 +22,7 @@ namespace Beymen.NotificationService.API.Consumer
             _connection = connection;
 
             _channel = _connection.CreateModel();
-            _channel.QueueDeclare(queue: "notification-queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
+            _channel.QueueDeclare(queue: "order-confirmed-queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
 
         }
 
@@ -81,7 +81,7 @@ namespace Beymen.NotificationService.API.Consumer
                 }
             };
 
-            _channel.BasicConsume(queue: "notification-queue", autoAck: false, consumer: consumer);
+            _channel.BasicConsume(queue: "order-confirmed-queue", autoAck: false, consumer: consumer);
             await Task.Delay(Timeout.Infinite, stoppingToken);
         }
 

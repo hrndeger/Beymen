@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Beymen.Service.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f76c00d469feb39837159d8d7b0aa81c677c2dd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c88916e2c8f68ef925019d4028ffbed61e19c4ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("Beymen.Service.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Beymen.Service.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

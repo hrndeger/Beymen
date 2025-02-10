@@ -11,6 +11,7 @@ namespace Beymen.StockService.Service
             _stockRepository = stockRepository;
         }
 
+
         public async Task UpdateStockAsync(Guid productId, int quantity)
         {
             var productStock = await _stockRepository.GetByIdAsync(productId) ?? throw new KeyNotFoundException($"{productId} ürün bulunamadı.");

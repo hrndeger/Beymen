@@ -12,6 +12,8 @@ namespace Beymen.StockService.Business
             _stockService = stockService;
         }
 
+      
+
         public async Task UpdateStockAsync(OrderDto orderDto)
         {
             // içerisine liste alan bir model ile gönderilip
