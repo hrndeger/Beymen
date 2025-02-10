@@ -12,4 +12,4 @@ Mimaride Outbox ve Repository pattern kullanılmıştır.
 
 ![Screenshot 2025-02-10 110753](https://github.com/user-attachments/assets/1b37277f-9546-48df-a3c3-45a403b9bcc3)
 
-Not : Proje kapsamında 2. yöntem olarak HttpClient kullanarak servisler arası iletişim kurmak için endpointlerde tanımlanmıştır. Circuit Breaker kullanarak bu yömntemle de geliştirilebilir. Fakat bu yöntemin dezavantajı servisler arası bağımlılık oluşturmasıdır.
+Not : Proje kapsamında 2. yöntem olarak HttpClient kullanarak servisler arası iletişim kurmak için endpointlerde tanımlanmıştır. Circuit Breaker kullanarak bu yöntemlede geliştirilebilir. Fakat bu yöntemin dezavantajı servisler arası bağımlılık oluşturmasıdır.
