@@ -1,5 +1,4 @@
-﻿using Beymen.OrderService.API.Processor;
-using Beymen.OrderService.Business;
+﻿using Beymen.OrderService.Business;
 using Beymen.OrderService.Business.Publisher;
 using Beymen.OrderService.Entity;
 using Beymen.OrderService.Service.Order;
@@ -30,7 +29,6 @@ builder.Services.AddSingleton<IConnection>(sp =>
 
 builder.Services.AddSingleton<IMessageQueuePublisher, OrderPublisher>();
 
-builder.Services.AddHostedService<OutboxProcessor>();
 
 builder.Services.AddScoped<IOutboxMessageService, OutboxMessageService>();
 builder.Services.AddScoped<IOrderBusiness, OrderBusiness>();
@@ -41,10 +39,6 @@ builder.Services.AddScoped<OrderRepository, OrderRepository>();
 builder.Services.AddLogging();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-//builder.Services.AddDbContext<OrderDbContext>(options =>
-//    options.UseNpgsql(builder.Configuration.GetConnectionString("OrderDbConnection")));
-
 
 var app = builder.Build();
 

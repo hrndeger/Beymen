@@ -1,6 +1,7 @@
 ﻿using Beymen.OrderService.Model.Order.Request;
 using Beymen.OrderService.Service.Order;
 using Beymen.OrderService.Service.OutboxMessage;
+using Beymen.Service.Message;
 using Beymen.Service.Message.DTO;
 using Newtonsoft.Json;
 
@@ -10,11 +11,13 @@ namespace Beymen.OrderService.Business
     {
         private readonly IOrderService _orderService;
         private readonly IOutboxMessageService _outboxMessageService;
+        private readonly IMessageQueuePublisher _messageQueuePublisher;
 
-        public OrderBusiness(IOrderService orderService, IOutboxMessageService outboxMessageService)
+        public OrderBusiness(IOrderService orderService, IOutboxMessageService outboxMessageService, IMessageQueuePublisher messageQueuePublisher)
         {
             _orderService = orderService;
             _outboxMessageService = outboxMessageService;
+            _messageQueuePublisher = messageQueuePublisher;
         }
 
         public async Task CreateOrderAsync(CreateOrderRequestDto createOrderRequestDto)
@@ -39,7 +42,12 @@ namespace Beymen.OrderService.Business
 
             var message = JsonConvert.SerializeObject(orderDto);
 
-            await _outboxMessageService.AddMessageAsync("order.created", message);
+            var outboxMessageResult = await _outboxMessageService.AddMessageAsync("stock-queue", message);
+
+            if (outboxMessageResult != Guid.Empty)
+            {
+                _messageQueuePublisher.Publish("stock-queue", message);
+            }
 
         }
     }

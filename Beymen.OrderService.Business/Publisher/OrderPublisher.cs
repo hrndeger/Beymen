@@ -29,15 +29,15 @@ namespace Beymen.OrderService.Business.Publisher
 
             _channel.ExchangeDeclare(_exchangeName, ExchangeType.Direct, durable: true);
 
-            _channel.QueueDeclare(queue: "stock-queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
-            _channel.QueueBind(queue: "stock-queue", exchange: _exchangeName, routingKey: "stock-queue");
+            _channel.QueueDeclare(queue: queueName, durable: true, exclusive: false, autoDelete: false, arguments: null);
+            _channel.QueueBind(queue: queueName, exchange: _exchangeName, routingKey: queueName);
 
             var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
 
             var properties = _channel.CreateBasicProperties();
             properties.Persistent = true;
 
-            _channel.BasicPublish(exchange: _exchangeName, routingKey: "stock-queue", basicProperties: properties, body: body);
+            _channel.BasicPublish(exchange: _exchangeName, routingKey: queueName, basicProperties: properties, body: body);
         }
 
         public void Dispose()
