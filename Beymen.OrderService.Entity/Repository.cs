@@ -1,6 +1,5 @@
 ﻿using Beymen.Service.Repository;
 using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
 
 namespace Beymen.OrderService.Entity
 {
@@ -41,7 +40,7 @@ namespace Beymen.OrderService.Entity
             await _context.SaveChangesAsync();
         }
 
-        
+
 
     }
 }
