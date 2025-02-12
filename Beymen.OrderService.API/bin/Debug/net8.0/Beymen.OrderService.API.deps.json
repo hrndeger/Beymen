@@ -601,6 +601,7 @@
       },
       "Beymen.OrderService.Service/1.0.0": {
         "dependencies": {
+          "Beymen.OrderService.Entity": "1.0.0",
           "Beymen.OrderService.Mapper": "1.0.0",
           "Beymen.Service.Message": "1.0.0",
           "Newtonsoft.Json": "13.0.1"

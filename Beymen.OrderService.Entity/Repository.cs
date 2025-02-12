@@ -41,10 +41,7 @@ namespace Beymen.OrderService.Entity
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IList<T>> GetFilteredAsync(Expression<Func<T, bool>> predicate)
-        {
-            return await _context.Set<T>().Where(predicate).ToListAsync();
-        }
+        
 
     }
 }

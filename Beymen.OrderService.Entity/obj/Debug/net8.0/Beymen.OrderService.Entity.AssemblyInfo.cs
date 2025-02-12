@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Beymen.OrderService.Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c88916e2c8f68ef925019d4028ffbed61e19c4ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d17a016cd47658e35d175fa53befc24cac4992e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Beymen.OrderService.Entity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Beymen.OrderService.Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

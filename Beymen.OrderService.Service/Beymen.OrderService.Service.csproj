@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Beymen.OrderService.Entity\Beymen.OrderService.Entity.csproj" />
     <ProjectReference Include="..\Beymen.OrderService.Mapper\Beymen.OrderService.Mapper.csproj" />
     <ProjectReference Include="..\Beymen.Service.Message\Beymen.Service.Message.csproj" />
   </ItemGroup>

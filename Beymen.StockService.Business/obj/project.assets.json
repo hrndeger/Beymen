@@ -283,19 +283,6 @@
           }
         }
       },
-      "Beymen.NotificationService.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Beymen.NotificationService.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Beymen.NotificationService.Service.dll": {}
-        }
-      },
       "Beymen.Service.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -823,11 +810,6 @@
         "postgresql.png"
       ]
     },
-    "Beymen.NotificationService.Service/1.0.0": {
-      "type": "project",
-      "path": "../Beymen.NotificationService.Service/Beymen.NotificationService.Service.csproj",
-      "msbuildProject": "../Beymen.NotificationService.Service/Beymen.NotificationService.Service.csproj"
-    },
     "Beymen.Service.Core/1.0.0": {
       "type": "project",
       "path": "../Beymen.Service.Core/Beymen.Service.Core.csproj",
@@ -856,7 +838,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Beymen.NotificationService.Service >= 1.0.0",
       "Beymen.Service.Message >= 1.0.0",
       "Beymen.StockService.Service >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3"
@@ -891,9 +872,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj": {
-              "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.NotificationService.Service\\Beymen.NotificationService.Service.csproj"
-            },
             "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\Beymen.Service.Message.csproj": {
               "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.Service.Message\\Beymen.Service.Message.csproj"
             },

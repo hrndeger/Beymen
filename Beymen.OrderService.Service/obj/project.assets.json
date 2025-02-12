@@ -852,6 +852,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Beymen.OrderService.Entity >= 1.0.0",
       "Beymen.OrderService.Mapper >= 1.0.0",
       "Beymen.Service.Message >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1"
@@ -886,6 +887,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Entity\\Beymen.OrderService.Entity.csproj": {
+              "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Entity\\Beymen.OrderService.Entity.csproj"
+            },
             "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Mapper\\Beymen.OrderService.Mapper.csproj": {
               "projectPath": "C:\\Users\\harun.deger\\source\\harun repos\\Ecommerce\\Beymen.OrderService.Mapper\\Beymen.OrderService.Mapper.csproj"
             },

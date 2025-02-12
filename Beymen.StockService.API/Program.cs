@@ -23,12 +23,10 @@ builder.Services.AddSingleton<IConnection>(sp =>
 
 services.AddHostedService<StockConsumer>();
 
+builder.Services.AddScoped<StockRepository>();
+
 services.AddScoped<IStockBusiness, StockBusiness>();
 services.AddScoped<IStockService, StockService>();
-services.AddScoped<StockRepository>();
-
-//builder.Services.AddDbContext<StockDbContext>(options =>
-//    options.UseNpgsql(builder.Configuration.GetConnectionString("StockDbConnection")));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -117,5 +117,3 @@ C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.API\obj\De
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.API\obj\Debug\net8.0\Beymen.StockService.API.pdb
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.API\obj\Debug\net8.0\Beymen.StockService.API.genruntimeconfig.cache
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.API\obj\Debug\net8.0\ref\Beymen.StockService.API.dll
-C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.API\bin\Debug\net8.0\Beymen.NotificationService.Service.dll
-C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.API\bin\Debug\net8.0\Beymen.NotificationService.Service.pdb

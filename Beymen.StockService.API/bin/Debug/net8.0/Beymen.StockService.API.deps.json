@@ -561,14 +561,6 @@
         }
       },
       "System.Threading.Channels/7.0.0": {},
-      "Beymen.NotificationService.Service/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.0"
-        },
-        "runtime": {
-          "Beymen.NotificationService.Service.dll": {}
-        }
-      },
       "Beymen.Service.Core/1.0.0": {
         "runtime": {
           "Beymen.Service.Core.dll": {}
@@ -589,7 +581,6 @@
       },
       "Beymen.StockService.Business/1.0.0": {
         "dependencies": {
-          "Beymen.NotificationService.Service": "1.0.0",
           "Beymen.Service.Message": "1.0.0",
           "Beymen.StockService.Service": "1.0.0",
           "Newtonsoft.Json": "13.0.3"
@@ -975,11 +966,6 @@
       "sha512": "sha512-qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
       "path": "system.threading.channels/7.0.0",
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
-    },
-    "Beymen.NotificationService.Service/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Beymen.Service.Core/1.0.0": {
       "type": "project",

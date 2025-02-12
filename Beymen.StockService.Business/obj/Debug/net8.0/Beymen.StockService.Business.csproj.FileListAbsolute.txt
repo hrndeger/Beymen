@@ -22,5 +22,3 @@ C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Business\o
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Business\obj\Debug\net8.0\refint\Beymen.StockService.Business.dll
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Business\obj\Debug\net8.0\Beymen.StockService.Business.pdb
 C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Business\obj\Debug\net8.0\ref\Beymen.StockService.Business.dll
-C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Business\bin\Debug\net8.0\Beymen.NotificationService.Service.dll
-C:\Users\harun.deger\source\harun repos\Ecommerce\Beymen.StockService.Business\bin\Debug\net8.0\Beymen.NotificationService.Service.pdb
